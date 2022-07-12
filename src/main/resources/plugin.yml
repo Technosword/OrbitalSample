@@ -1,0 +1,13 @@
+name: SamplePluginOrbit
+version: '${project.version}'
+main: us.techno.samplepluginorbit.SamplePluginOrbit
+api-version: 1.18
+authors: [ Technosword ]
+description: A sample project for Orbital Studios
+commands:
+  fire:
+    usage: '/fire <player>'
+  lightning:
+    usage: '/lightning <player>'
+  explode:
+    usage: '/explode <player>'
